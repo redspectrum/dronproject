@@ -1,0 +1,3 @@
+Оставил {{ comment.author }}
+Текст {{ comment.content}}
+{{ host }}{% url 'main:detail' rubric_pk=bb.rubric.pk pk=bb.pk %}
