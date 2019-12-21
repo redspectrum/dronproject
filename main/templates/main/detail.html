@@ -34,7 +34,7 @@
 <button class="btn btn-link"><a href="{% url 'main:by_rubric' pk=bb.rubric.pk %}{{ all }}">Назад</a></button>
 </div>
 <div class="col-7">
-<h4 class="mt-6 my-3">Новий коментарий</h4>
+<h4 class="mt-6 my-3">Новый коментарий</h4>
 <form class="form-group" method="post">
     {% csrf_token %}
     {% bootstrap_form form layout='horizontal' %}
